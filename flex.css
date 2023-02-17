@@ -1,0 +1,62 @@
+.main-flex{
+    border: 1px solid rgb(236, 22, 22);
+    margin-top: 25px;
+    
+    height: 100vh;
+    padding: 24px;
+    display: flex;
+    /* justify-content->(act in x-axis)
+    Types:
+      center
+      flex-start
+      flex-end 
+      space-around
+      space-between
+      space-evenly
+      */
+
+    justify-content:space-around;
+
+    /* 
+    align-item->(act in y-axis)
+      Types:
+        center
+      flex-start
+      flex-end
+    */
+
+    align-items: center;
+
+/* align-content->(act in y-axis)
+    Types:
+      center
+      flex-start
+      flex-end 
+      space-around
+      space-between
+      space-evenly
+      */
+
+align-content: center;
+    /* flex-direction
+    row->(row la act agum)
+    column->(column la act agum)
+    */
+  
+  
+  
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-flow: column;
+
+}
+h1{
+    text-align: center;
+}
+.flex-div{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    
+}

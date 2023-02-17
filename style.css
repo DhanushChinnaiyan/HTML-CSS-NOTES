@@ -1,0 +1,250 @@
+
+
+
+/* slector (ctrl+/) */
+/* external css */
+#h1{
+    color: aqua;
+}
+
+/* ------------------------------------------------------------------ */
+/* properties */
+
+/* 1)list properties */
+ul{
+    list-style-type: none;
+   
+}
+
+/* 2)font properties */
+ul{
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/* 3)text properties */
+nav{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* 4)border properties */
+nav{
+    text-align: center;
+}
+/* -------------------------------------------------------------------------------------- */
+/* class vs id? */
+
+main{
+    padding: 20px;
+    margin: 50px;
+}
+/* ------------------------- */
+/* class */
+/* example for !important(5)use of important: */
+.content{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow !important;
+}
+.clss-contant{
+    color: red;
+    background-color: purple;
+}
+/* ---------------------------------------------------------- */
+/* id */
+
+#home{
+    font-family: sans-serif;
+    color: rgb(12, 126, 126);
+}
+#about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+#skill{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(153, 16, 39);
+}
+#exp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+#contact{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+}
+/* ---------- */
+.class1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* span{
+    display: inline;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+} */
+/* span{
+    display: block;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+} */
+/* span{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+}  */
+
+.a{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+}
+.b{
+    display: inline;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+}
+.c{
+    display: block;
+    border: 2px solid black;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    color: azure;
+    background-color: blue;
+}
+nav>ul>li{
+    display: inline-block;
+    
+}
+
+/* --------------------------------DAY 2 CSS ----------------------------------------------------------------------------------- */
+
+section{
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+a:link{
+    color:rgb(228, 34, 235);
+
+}
+a:visited{
+    color: rgb(16, 16, 16);
+}
+a:hover{
+    color:green;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: inherit;
+}
+a:active{
+    color:blue;
+}
+
+
+*{
+    /* background-color: antiquewhite; */
+    /* border: 5px solid black; */
+    padding: 1px;
+    /* background-image: linear-gradient(red,orange); */
+}
+
+body{
+    border: 2px solid rgb(230, 54, 83);
+    border-radius: 30px;
+    margin: 10px ;
+    
+    /* background-image: linear-gradient(to right, rgb(252, 249, 249),rgb(139, 113, 113),white);
+     */
+}
+/* body:hover{
+    background-image: linear-gradient(to right,red,yellow,orange,red);
+} */
+#poistion{
+    border: 1px solid black;
+    margin: 15px;
+    height: 500px;
+    background-color: rgb(41, 132, 212) !important;
+    position: relative;
+    
+}
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    
+}
+#absolute{ 
+    /* this is for sticky */
+       background-color: brown;
+       position: sticky;
+       top: 0px;
+       bottom: 0px;
+      
+}
+#relative{
+    background-color: rgb(42, 116, 165);
+    position: relative;
+    right: 20px;
+       top: 40px;
+       bottom: 50px;
+       left: 40px;
+}
+#fixed{
+    background-color: rgb(211, 42, 146);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#sticky{
+    /* thi is for absolute */
+    background-color: rgb(46, 197, 79);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 50px;
+    left: 40px;
+}
+/* --------------------------------DAY 3 CSS ----------------------------------------------------------------------------------- */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
